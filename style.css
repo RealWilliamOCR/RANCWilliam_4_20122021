@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+header figure img {
+  width: 250px;
+  margin-left: 30%;
+}
+
+main {
+  width: 100%;
+}
+main .introduction {
+  display: flex;
+  align-items: center;
+  margin-left: 40%;
+}
+main .introduction p {
+  margin-left: 15px;
+}
+main .entête {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main .entête button {
+  width: 40%;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+main h1, main h2, main h3 {
+  font-family: "Shrikhand";
+}
+main img {
+  width: 50%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
