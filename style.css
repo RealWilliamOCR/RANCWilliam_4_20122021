@@ -14,21 +14,22 @@
   .introduction {
     display: flex;
     justify-content: center;
-    border-top: solid gray 3px;
+    border-top: solid rgb(206, 206, 206) 3px;
     margin-top: 15px;
     padding-top: 10px;
-    background: lightgray;
+    background-color: rgb(234, 234, 234);
     height: 30px;
   }
   .introduction p {
     padding-left: 10px;
+	font-weight: bold;
   }
 
   .entete {
     display: flow-root;
     text-align: center;
     background: whitesmoke;
-    height: 260px;
+    height: 300px;
   }
   .entete h1 {
     font-size: 1.5em;
@@ -52,6 +53,140 @@
     font-size: 1em;
     box-shadow: 1px 0px 5px 0px grey;
   }
-}
-
+  .fonctionnement{
+	  height: 400px;
+  }
+  .fonctionnement h2{
+	  padding-left: 10px;
+	  font-family: system-ui;
+  }
+  .fonctionnement .description{
+	display: flex;
+    margin-top: 35px;
+    width: 90%;
+    border-radius: 15px;
+    height: 35px;
+    padding-top: 15px;
+    margin-left: 20px;
+    box-shadow: lightgrey 1px 8px 4px -5px;
+  }
+  .description .chiffres{
+	margin-left: -10px;
+    color: white;
+    background: #9356DC;
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+    font-family: system-ui;
+  }	
+  .description i{
+    margin-left: 20px;
+    color: dimgray;
+  }
+  .description .violet{
+	  color: #9356DC;
+  }
+  .description p{
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: system-ui;
+    margin-top: -6px;
+  }
+  .cartes h2{
+    padding-left: 10px;
+    font-family: system-ui;
+  }
+  .restaurants figure{
+    width: 90%;
+    height: 230px;
+    margin-left: 10px;
+    border-radius: 15px;
+    box-shadow: lightgrey 0 3px 10px 3px;
+    margin-top: 20px;
+  }
+  .restaurants figure img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+    height: 172px;
+  }
+  .nouveautes{
+	display: flex;
+  }
+  .nouveautes p{
+	  background-color: #99E2D0;
+    width: 17%;
+    border-radius: 3px;
+    margin-top: -164px;
+    height: 25px;
+    font-family: system-ui;
+    color: rgb(0, 135, 102);
+    font-weight: bold;
+    padding-right: 28px;
+    margin-left: 195px;
+    padding-left: 10px;
+  }
+  .cartes .explications{
+    display: flex;
+  }
+  .carteresto{
+    text-align: left;
+    margin-left: 10px;
+  }
+  .carteresto h3{
+    margin-top: 5px;
+    font-family: system-ui;
+    font-size: 1em;
+  }
+  .animation{
+    display: flex;
+    align-self: center;
+    margin-left: 80px;
+  }
+  .animation .droite{
+    display: flex;
+    align-self: center;
+    margin-left: 40px;
+  }
+  .animation .plein{
+    display: none;
+  }
+  footer{
+    margin-top: 50px;
+    height: 200px;
+    display: grid;
+    background: #464646;
+  }
+  footer h3{
+    font-family: shrikhand;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 100;
+  }
+  footer p{
+    margin-left: 10px;
+    color: white;
+    font-family: system-ui;
+    margin-top: -5px;
+  }
+  footer .logotexte{
+    display: flex;
+  }
+  .logotexte i{
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .logotexte .hand{
+    margin-right: 4px;
+  }
+  .logotexte p{
+    color: white;
+    font-family: system-ui;
+  }
 /*# sourceMappingURL=style.css.map */
+  
