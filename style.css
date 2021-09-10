@@ -3,196 +3,7 @@
   padding: 0;
   font-family: "Roboto";
 }
-.container figure {
-  text-align: center;
-  margin-top: 15px;
-}
-.introduction {
-  display: flex;
-  justify-content: center;
-  border-top: solid rgb(206, 206, 206) 3px;
-  margin-top: 15px;
-  padding-top: 10px;
-  background-color: rgb(234, 234, 234);
-  height: 30px;
-}
-.introduction p {
-  padding-left: 10px;
-  font-weight: bold;
-}
-
-.entete {
-  display: flow-root;
-  text-align: center;
-  background: whitesmoke;
-  height: 300px;
-}
-.entete h1 {
-  font-size: 1.5em;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 25px;
-  font-weight: bold;
-  font-family: system-ui;
-}
-.entete p {
-  margin-top: 10px;
-}
-.entete button {
-  margin-top: 5%;
-  border-radius: 50px;
-  border: none;
-  background: linear-gradient(1turn, #9356DC, #FF79DA);
-  color: white;
-  font-weight: bold;
-  font-size: 1em;
-  box-shadow: 1px 0px 5px 0px grey;
-  width: 60%;
-  height: 15%;
-}
-.fonctionnement{
-  height: 400px;
-}
-.fonctionnement h2{
-  padding-left: 10px;
-  font-family: system-ui;
-  padding-top: 40px;
-}
-.fonctionnement .description{
-  display: flex;
-  margin-top: 35px;
-  width: 90%;
-  border-radius: 15px;
-  height: 35px;
-  padding-top: 15px;
-  margin-left: 20px;
-  box-shadow: lightgrey 1px 8px 4px -5px;
-  background: #F5F5F5;
-}
-.description .chiffres{
-  margin-left: -10px;
-  color: white;
-  background: #9356DC;
-  border-radius: 50px;
-  height: 20px;
-  width: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 0.8em;
-  font-family: system-ui;
-}	
-.description i{
-  margin-left: 20px;
-  color: dimgray;
-}
-.description .violet{
-  color: #9356DC;
-}
-.description p{
-  margin-left: 20px;
-  font-weight: bold;
-  font-family: system-ui;
-  align-content: center;
-  justify-content: center;
-  display: flex;
-}
-.cartes h2{
-  padding-left: 10px;
-  font-family: system-ui;
-}
-.restaurants figure{
-  width: 90%;
-  height: 230px;
-  margin-left: 10px;
-  border-radius: 15px;
-  box-shadow: lightgrey 0 3px 10px 3px;
-  margin-top: 20px;
-}
-.restaurants figure img{
-  width: 100%;
-  border-radius: 15px 15px 0 0;
-  object-fit: cover;
-  height: 172px;
-}
-.nouveautes{
-display: flex;
-}
-.nouveautes p{
-  background-color: #99E2D0;
-  width: 10%;
-  border-radius: 3px;
-  margin-top: -50%;
-  height: fit-content;
-  font-family: system-ui;
-  color: rgb(0, 135, 102);
-  font-weight: bold;
-  padding-right: 15%;
-  margin-left: 68%;
-  padding-left: 1%;
-}
-.cartes .explications{
-  display: flex;
-  justify-content: space-between;
-  margin-right: 10%;
-}
-.carteresto{
-  text-align: left;
-  margin-left: 10px;
-}
-.carteresto h3{
-  margin-top: 5px;
-  font-family: system-ui;
-  font-size: 1em;
-}
-.animation{
-  display: flex;
-  align-self: center;
-  margin-left: 80px;
-}
-.animation .droite{
-  align-self: center;
-  margin-left: 40px;
-}
-.animation .plein{
-  display: none;
-}
-footer{
-  margin-top: 50px;
-  height: 200px;
-  display: grid;
-  background: #464646;
-}
-footer h3{
-  font-family: shrikhand;
-  color: white;
-  margin-top: 20px;
-  margin-left: 10px;
-  font-weight: 100;
-}
-footer p{
-  margin-left: 10px;
-  color: white;
-  font-family: system-ui;
-  margin-top: -5px;
-}
-footer .logotexte{
-  display: flex;
-}
-.logotexte i{
-  color: white;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-.logotexte .hand{
-  margin-right: 4px;
-}
-.logotexte p{
-  color: white;
-  font-family: system-ui;
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .container figure {
     text-align: center;
     margin-top: 15px;
@@ -238,8 +49,8 @@ footer .logotexte{
     font-weight: bold;
     font-size: 1em;
     box-shadow: 1px 0px 5px 0px grey;
-    width: 60%;
-    height: 15%;
+    width: 290px;
+    height: 50px;
   }
   .fonctionnement{
 	  height: 400px;
@@ -293,7 +104,7 @@ footer .logotexte{
     font-family: system-ui;
   }
   .restaurants figure{
-    width: 90%;
+    width: 92%;
     height: 230px;
     margin-left: 10px;
     border-radius: 15px;
@@ -309,18 +120,18 @@ footer .logotexte{
   .nouveautes{
 	display: flex;
   }
-  .nouveautes p{
+  .nouveautes{
     background-color: #99E2D0;
-    width: 10%;
+    width: 90px;
     border-radius: 3px;
-    margin-top: -50%;
-    height: fit-content;
+    margin-top: 30px;
     font-family: system-ui;
     color: rgb(0, 135, 102);
     font-weight: bold;
-    padding-right: 15%;
-    margin-left: 68%;
-    padding-left: 1%;
+    padding: 3px;
+    position: absolute;
+    right: 10%;
+    justify-content: center;
   }
   .cartes .explications{
     display: flex;
