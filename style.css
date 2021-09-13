@@ -3,12 +3,23 @@
   padding: 0;
   font-family: "Roboto";
 }
+
+h1{
+	font-family: shrikhand;
+	margin-left: 10px;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
 @media screen and (max-width: 768px) {
   .container figure {
     text-align: center;
     margin-top: 15px;
   }
-
   .introduction {
     display: flex;
     justify-content: center;
@@ -35,12 +46,11 @@
     margin-right: 25px;
     margin-top: 25px;
     font-weight: bold;
-    font-family: system-ui;
   }
   .entete p {
     margin-top: 10px;
   }
-  .entete button {
+	.entete button {
     margin-top: 5%;
     border-radius: 50px;
     border: none;
@@ -52,16 +62,25 @@
     width: 290px;
     height: 50px;
   }
+  .titre{
+	position: relative;
+    margin-top: -35px;
+    background: white;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+  }
+  .titre .animation{
+	margin-top: 20px;
+  }
   .fonctionnement{
 	  height: 400px;
   }
   .fonctionnement h2{
-	  padding-left: 10px;
-	  font-family: system-ui;
+	padding-left: 10px;
     padding-top: 40px;
   }
   .fonctionnement .description{
-	  display: flex;
+	display: flex;
     margin-top: 35px;
     width: 90%;
     border-radius: 15px;
@@ -72,7 +91,7 @@
     background: #F5F5F5;
   }
   .description .chiffres{
-	  margin-left: -10px;
+	margin-left: -10px;
     color: white;
     background: #9356DC;
     border-radius: 50px;
@@ -82,7 +101,6 @@
     justify-content: center;
     align-items: center;
     font-size: 0.8em;
-    font-family: system-ui;
   }	
   .description i{
     margin-left: 20px;
@@ -94,14 +112,17 @@
   .description p{
     margin-left: 20px;
     font-weight: bold;
-    font-family: system-ui;
     align-content: center;
     justify-content: center;
     display: flex;
   }
   .cartes h2{
     padding-left: 10px;
-    font-family: system-ui;
+  }
+  .photoprincipale{
+	width: 100%;
+    object-fit: cover;
+    height: 200px;
   }
   .restaurants figure{
     width: 92%;
@@ -125,7 +146,6 @@
     width: 90px;
     border-radius: 3px;
     margin-top: 30px;
-    font-family: system-ui;
     color: rgb(0, 135, 102);
     font-weight: bold;
     padding: 3px;
@@ -142,9 +162,19 @@
     text-align: left;
     margin-left: 10px;
   }
+  .carteresto .description{
+	display: flex;
+    margin-top: 35px;
+    width: 90%;
+    border-radius: 15px;
+    height: 35px;
+    padding-top: 15px;
+    margin-left: 20px;
+    box-shadow: lightgrey 1px 8px 4px -5px;
+    background: #F5F5F5;
+  }
   .carteresto h3{
     margin-top: 5px;
-    font-family: system-ui;
     font-size: 1em;
   }
   .animation{
@@ -159,6 +189,20 @@
   .animation .plein{
     display: none;
   }
+  .boutoncommande{
+	text-align: center;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(1turn, #9356DC, #FF79DA);
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    box-shadow: 1px 0px 5px 0px grey;
+    width: 290px;
+    height: 50px;
+	margin-left: 15px;
+  }
+	  
   footer{
     margin-top: 50px;
     height: 200px;
@@ -175,7 +219,6 @@
   footer p{
     margin-left: 10px;
     color: white;
-    font-family: system-ui;
     margin-top: -5px;
   }
   footer .logotexte{
@@ -191,7 +234,6 @@
   }
   .logotexte p{
     color: white;
-    font-family: system-ui;
   }
 }
 /*# sourceMappingURL=style.css.map */
