@@ -14,6 +14,7 @@ h1{
 a{
 	text-decoration: none;
 	color: black;
+  display: flex;
 }
 
   header{
@@ -21,11 +22,17 @@ a{
   }
   .container{
     background: #F5F5F5;
+    max-width: 1280px;
+    margin: auto;
   }
   .container figure {
     text-align: center;
     margin-top: 15px;
     background: white;
+  }
+  .fa-arrow-left{
+    margin-left: 10px;
+    margin-top: -28px;
   }
   .introduction {
     display: flex;
@@ -203,6 +210,8 @@ a{
   .englobe{
     background: whitesmoke;
     height: 1100px;
+    display: flex;
+    flex-wrap: wrap;
   }
   .carteresto{
     margin-left: 10px;
