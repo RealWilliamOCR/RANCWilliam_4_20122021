@@ -51,7 +51,7 @@ a{
     display: flow-root;
     text-align: center;
     background: whitesmoke;
-    height: 300px;
+    height: 270px;
   }
   .entete h1 {
     font-size: 1.5em;
@@ -73,7 +73,7 @@ a{
     font-weight: bold;
     font-size: 1.1em;
     box-shadow: 1px 0px 5px 0px grey;
-    width: 250px;
+    width: 225px;
     height: 50px;
   }
   .titre{
@@ -88,26 +88,31 @@ a{
 	margin-top: 20px;
   }
   .fonctionnement{
-	  height: 400px;
     background: white;
+    padding: 20px 20px 50px 20px;
   }
   .fonctionnement h2{
 	  padding-left: 10px;
     padding-top: 40px;
   }
   .fonctionnement .description{
-	  display: flex;
-    margin-top: 35px;
+	  margin-top: 35px;
     width: 90%;
     border-radius: 15px;
     height: 35px;
     padding-top: 15px;
-    margin-left: 20px;
     box-shadow: lightgrey 1px 8px 4px -5px;
     background: #F5F5F5;
+    display: flex;
+    max-width: 300px;
   }
   .fonctionnement .description:hover{
     background: #F5EDFF;
+  }
+  .englobe2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   .description .chiffres{
 	  margin-left: -10px;
@@ -138,7 +143,6 @@ a{
   .cartes h2{
     padding-left: 10px;
     padding-top: 30px;
-    font-size: 1.2em;
   }
   .photoprincipale{
 	width: 100%;
@@ -152,6 +156,7 @@ a{
     border-radius: 15px;
     box-shadow: lightgrey 0 3px 10px 3px;
     margin-top: 20px;
+    max-width: 300px;
   }
   .restaurants figure img{
     width: 100%;
@@ -171,11 +176,12 @@ a{
     font-weight: bold;
     padding: 3px;
     position: absolute;
-    right: 10%;
+    margin-left: 180px;
     justify-content: center;
   }
   .cartes{
     background: #F5F5F5;
+    padding: 20px;
   }
   .cartes .explications{
     display: flex;
@@ -200,6 +206,10 @@ a{
 	  margin-top: 10px;
 	  font-size: 0.8em;
   }
+  .carteresto1 h3{
+    font-weight: bold;
+    font-size: 1.3em;
+  }
   .cartes .trait{
     width: 50px;
     border-bottom-style: outset;
@@ -209,9 +219,9 @@ a{
   }
   .englobe{
     background: whitesmoke;
-    height: 1100px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
   .carteresto{
     margin-left: 10px;
@@ -297,4 +307,11 @@ a{
   .logotexte p{
     color: white;
   }
+  
+  @media screen and (max-width: 320px)
+{
+  .nouveautes{
+    margin-left: 150px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
