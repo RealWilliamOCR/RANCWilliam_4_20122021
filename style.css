@@ -44,7 +44,6 @@ a{
   }
   .introduction p {
     padding-left: 10px;
-	  font-weight: bold;
   }
 
   .entete {
@@ -58,7 +57,6 @@ a{
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 25px;
-    font-weight: bold;
     font-family: "Roboto";
   }
   .entete p {
@@ -70,7 +68,6 @@ a{
     border: none;
     background: linear-gradient(1turn, #9356DC, #FF79DA);
     color: white;
-    font-weight: bold;
     font-size: 1.1em;
     box-shadow: 1px 0px 5px 0px grey;
     width: 225px;
@@ -135,14 +132,12 @@ a{
 	  color: #9356DC;
   }
   .description p{
-    margin-left: 20px;
-    font-weight: bold;
+    margin-left: 10px;
     align-content: center;
     justify-content: center;
     display: flex;
   }
   .cartes h2{
-    padding-left: 10px;
     padding-top: 30px;
   }
   .photoprincipale{
@@ -157,7 +152,7 @@ a{
     border-radius: 15px;
     box-shadow: lightgrey 0 3px 10px 3px;
     margin-top: 20px;
-    max-width: 300px;
+    max-width: 450px;
   }
   .restaurants figure img{
     width: 100%;
@@ -174,7 +169,6 @@ a{
     border-radius: 3px;
     margin-top: 30px;
     color: rgb(0, 135, 102);
-    font-weight: bold;
     padding: 3px;
     position: absolute;
     margin-left: 180px;
@@ -198,6 +192,7 @@ a{
     box-shadow: lightgrey 1px 8px 4px -5px;
     justify-content: space-between;
     background: white;
+    overflow: hidden;
   }
   .cartes .explications1{
     display: flex;
@@ -213,9 +208,6 @@ a{
 	  margin-top: 10px;
 	  font-size: 0.8em;
   }
-  .carteresto1 h3{
-    font-weight: bold;
-  }
   .cartes .trait{
     width: 50px;
     border-bottom-style: outset;
@@ -230,9 +222,12 @@ a{
     justify-content: space-around;
   }
   .carteresto{
-    margin-left: 10px;
-    margin-top: -8px;
+    margin: -8px 20px 0 10px;
     font-size: 0.75em;
+    width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .carteresto .description{
 	  display: flex;
@@ -245,11 +240,19 @@ a{
   }
   .carteresto h3{
     margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .prix{
     margin-right: 20px;
     margin-top: 7px;
-    font: status-bar;
+    width: 50px;
   }
   .animation{
     display: flex;
@@ -275,7 +278,6 @@ a{
     border: none;
     background: linear-gradient(1turn, #9356DC, #FF79DA);
     color: white;
-    font-weight: bold;
     font-size: 1em;
     box-shadow: 1px 0px 5px 0px grey;
     width: 270px;
@@ -284,6 +286,13 @@ a{
     
   }
 	.vert{
+    display: block;
+    width: 50px;
+    background: #99e2d0;
+    color: white;
+    height: 34px;
+    position: absolute;
+    right: -50px;
     display: none;
   }
   footer{
@@ -323,6 +332,13 @@ a{
 {
   .nouveautes{
     margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 1280px)
+{
+  .restaurants figure{
+    max-width: 300px;
   }
 }
 /*# sourceMappingURL=style.css.map */
