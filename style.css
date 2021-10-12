@@ -128,6 +128,8 @@ margin-top: 20px;
 }
 .cartes h2{
   padding-top: 30px;
+  width: 147px;
+  margin-left: 30px;
 }
 .photoprincipale{
 width: 100%;
@@ -306,6 +308,10 @@ p{
   padding: 7.5px 13px 7.5px 13px;
   margin-top: -15px;
 }
+.blanc:hover{
+  rotate: 360°;
+  transition-duration: 2000ms;
+}
 footer{
   height: 200px;
   display: grid;
@@ -345,8 +351,7 @@ footer .logotexte{
     margin-left: 150px;
   }
 }
-
-@media screen and (max-width: 1280px)
+@media screen and (min-width: 1280px)
 {
   .restaurants figure{
     max-width: 300px;
