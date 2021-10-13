@@ -17,6 +17,39 @@ a{
   display: flex;
 }
 
+.loading{
+  border-top: 10px solid #9356DC;
+  border-bottom: 5px solid #FF79DA;
+  border-left: 10px solid #99E2D0;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 1.5s linear infinite;
+  -o-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+
+@-webkit-keyframes spin{
+  0%{
+    -webkit-transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin{
+  0%{
+    -webkit-transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform: rotate(360deg);
+  }
+}
+
 header{
   background: white;
 }
@@ -307,9 +340,13 @@ p{
   padding: 7.5px 13px 7.5px 13px;
   margin-top: -15px;
 }
-.blanc:hover{
-  rotate: 360°;
-  transition-duration: 2000ms;
+.blanc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    transform: rotate(360deg);
+    transition-duration: 15s;
 }
 footer{
   height: 200px;
