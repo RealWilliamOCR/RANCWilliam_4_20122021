@@ -17,6 +17,10 @@ a{
   display: flex;
 }
 
+.load-spinner{
+	opacity: 0;
+}
+
 .loading{
   border-top: 10px solid #9356DC;
   border-bottom: 5px solid #FF79DA;
@@ -24,9 +28,9 @@ a{
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  -webkit-animation: spin 1.5s linear infinite;
-  -o-animation: spin 1.5s linear infinite;
-  animation: spin 1.5s linear infinite;
+  -webkit-animation: spin 4s linear both;
+  -o-animation: spin 4s linear both;
+  animation: spin 4s linear both;
   margin: auto;
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
@@ -54,6 +58,7 @@ header{
   background: white;
 }
 .container{
+  opacity: 1;
   background: #F5F5F5;
   max-width: 1280px;
   margin: auto;
