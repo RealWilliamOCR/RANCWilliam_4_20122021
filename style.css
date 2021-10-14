@@ -16,27 +16,6 @@ a{
 	color: black;
 	display: flex;
 }
-.loadspinner{
-	opacity: 1;
-}
-
-@-webkit-keyframes spin{
-  0%{
-    -webkit-transform: rotate(0deg);
-  }
-  100%{
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-@keyframes spin{
-  0%{
-    -webkit-transform: rotate(0deg);
-  }
-  100%{
-    -webkit-transform: rotate(360deg);
-  }
-}
 
 .loading{
   border-top: 10px solid #9356DC;
@@ -75,7 +54,7 @@ header{
   background: white;
 }
 .container{
-  opacity: 0;
+  opacity: 1;
   transition-duration: 4s;
   background: #F5F5F5;
   max-width: 1280px;
@@ -318,18 +297,21 @@ p{
 .plein{
   display: block;
   opacity: 0;
+  position: absolute;
+  margin-left: 40px;
   background: linear-gradient(1turn, #9356DC, #FF79DA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .vide:hover{
   opacity: 0;
-  transition-duration: 1s;
 }
 .plein:hover{
   opacity: 1;
-  margin-left: -16px;
-  transition-duration: 1s;
+  position: absolute;
+  margin-left: 40px;
+  transition-duration: 2s;
+  cursor: pointer;
 }
 .btncmd{
   display: flow-root;
