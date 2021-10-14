@@ -17,7 +17,25 @@ a{
 	display: flex;
 }
 .loadspinner{
-	opacity: 0;
+	opacity: 1;
+}
+
+@-webkit-keyframes spin{
+  0%{
+    -webkit-transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin{
+  0%{
+    -webkit-transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 .loading{
@@ -57,7 +75,7 @@ header{
   background: white;
 }
 .container{
-  opacity: 1;
+  opacity: 0;
   transition-duration: 4s;
   background: #F5F5F5;
   max-width: 1280px;
