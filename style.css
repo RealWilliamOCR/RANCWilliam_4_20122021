@@ -14,10 +14,9 @@ h1{
 a{
 	text-decoration: none;
 	color: black;
-  display: flex;
+	display: flex;
 }
-
-.load-spinner{
+.loadspinner{
 	opacity: 0;
 }
 
@@ -59,9 +58,11 @@ header{
 }
 .container{
   opacity: 1;
+  transition-duration: 4s;
   background: #F5F5F5;
   max-width: 1280px;
   margin: auto;
+  transition-delay: 4s;
 }
 .container figure {
   text-align: center;
@@ -284,7 +285,7 @@ p{
 }
 .explications:hover .vert{
   margin-right: 0;
-  transition-duration: 2s;
+  transition: transform 2s ease-in-out;
 }
 .animation{
   display: flex;
@@ -305,11 +306,12 @@ p{
 }
 .vide:hover{
   opacity: 0;
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 .plein:hover{
   opacity: 1;
-  transition-duration: 2s;
+  margin-left: -16px;
+  transition-duration: 1s;
 }
 .btncmd{
   display: flow-root;
