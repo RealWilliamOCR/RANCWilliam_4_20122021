@@ -501,10 +501,10 @@ footer .logotexte{
 .logotexte p{
   color: white;
 }
-@media screen and (max-width: 320px)
+@media screen and (max-width: 320px) and (min-width: 320px)
 {
   .nouveautes{
-    margin-left: 150px;
+    margin-left: 170px;
   }
   .animation{
     margin-left: 20px;
@@ -515,17 +515,14 @@ footer .logotexte{
   .englobe{
     margin-left: -25px;
   }
-  .nouveautes{
-    margin-left: 130px;
-  }
 }
-@media (max-width: 414px) and (min-width: 375px)
+@media (max-width: 414px) and (min-width: 414px)
 {
   .englobe{
     margin-left: -15px;
   }
   .nouveautes{
-    margin-left: 210px;
+    margin-left: 225px;
   }
 }
 @media screen and (min-width: 768px)
