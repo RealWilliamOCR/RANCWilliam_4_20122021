@@ -519,7 +519,7 @@ footer .logotexte{
     margin-left: 130px;
   }
 }
-@media screen and (max-width: 414px)
+@media (max-width: 414px) and (min-width: 375px)
 {
   .englobe{
     margin-left: -15px;
