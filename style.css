@@ -120,6 +120,8 @@ header{
 }
 .entete p {
   margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .titre{
   position: relative;
@@ -223,7 +225,7 @@ margin-top: 20px;
   color: rgb(0, 135, 102);
   padding: 3px;
   position: absolute;
-  margin-left: 180px;
+  margin-left: 310px;
   justify-content: center;
 }
 .cartes{
@@ -389,7 +391,7 @@ from{
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-p{
+.entrees p, .plats p, .desserts p{
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -531,16 +533,25 @@ footer .logotexte{
     margin-left: 225px;
   }
 }
-@media screen and (min-width: 768px)
+@media (max-width: 768px) and (min-width: 768px)
 {
   .nouveautes{
-    margin-left: 305px;
+    margin-left: 510px;
   }
-}
-@media screen and (min-width: 1024px)
+  .englobe{
+    margin-left: 0;
+  }
+  .restaurants figure{
+    margin-left: 0;
+    max-width: 1000px;
+  }
+@media (max-width: 1024px) and (min-width: 1024px)
 {
   .nouveautes{
-    margin-left: 305px;
+    margin-left: 330px;
+  }
+  .englobe{
+    margin-left: 0px;
   }
 }
 @media screen and (min-width: 1280px)
@@ -552,4 +563,4 @@ footer .logotexte{
     margin-left: 180px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */}
