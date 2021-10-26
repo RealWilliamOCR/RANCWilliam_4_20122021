@@ -509,7 +509,7 @@ footer .logotexte{
 .logotexte p{
   color: white;
 }
-@media screen and (max-width: 320px) and (min-width: 320px)
+@media screen and (max-width: 375px) and (min-width: 320px)
 {
   .nouveautes{
     margin-left: 170px;
