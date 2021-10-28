@@ -531,9 +531,16 @@ header{
 }
 
 .blanc{
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease;
+  margin: auto;
+  position: absolute;
+
+	.explications:hover .blanc {
+		transform: rotate(360deg);
+	}
 }
 
 footer{
@@ -575,68 +582,36 @@ footer{
 	}
 }
 
-@media screen and (max-width: 320px) and (min-width: 320px)
+@media screen and (max-width: 374px) and (min-width: 320px)
 {
   .nouveautes{
-    margin-left: 170px;
+    right: 50px;
   }
-  
   .animation{
     margin-left: 20px;
   }
-}
-
-@media screen and (max-width: 375px)
-{
   .englobe{
-    margin-left: -25px;
-  }
+	   margin-left: 0;
+   }
 }
-
-@media (max-width: 414px) and (min-width: 414px)
+@media screen and (max-width: 413px) and (min-width: 375px)
 {
-  .englobe{
-    margin-left: -15px;
-  }
-  
-  .nouveautes{
-    margin-left: 225px;
-  }
+   .englobe{
+	   margin-left: 0;
+   }
 }
-
-@media (max-width: 768px) and (min-width: 768px)
+@media screen and (max-width: 768px) and (min-width: 414px)
 {
-  .nouveautes{
-    margin-left: 510px;
-  }
-  
-  .englobe{
-    margin-left: 0;
-  }
-  
+   .englobe{
+	   margin-left: 0;
+   }
+}
+@media (max-width: 1280px) and (min-width: 1024px)
+{
   .restaurants figure{
     margin-left: 0;
-    max-width: 1000px;
   }
-  
-@media (max-width: 1024px) and (min-width: 1024px)
-{
-  .nouveautes{
-    margin-left: 330px;
-  }
-  
   .englobe{
-    margin-left: 0px;
-  }
-}
-
-@media screen and (min-width: 1280px)
-{
-  .restaurants figure{
-    max-width: 300px;
-  }
-  
-  .nouveautes{
-    margin-left: 180px;
-  }
+	   margin-left: 0;
+   }
 }

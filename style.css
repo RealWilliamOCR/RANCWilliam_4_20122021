@@ -470,34 +470,14 @@ from{
   display: flex;
   align-items: center;
   justify-content: center;
-  -webkit-animation: spin 3s linear both;
-  -o-animation: spin 3s linear both;
-  animation: spin 3s linear both;
+  transition: all 1s ease;
   margin: auto;
   position: absolute;
 }
-
-@-webkit-keyframes spin{
-  0%{
-    -webkit-transform: rotate(0deg);
-    opacity:1;
-  }
-  100%{
-    -webkit-transform: rotate(360deg);
-    opacity: 1;
-  }
+.explications:hover .blanc {
+  transform: rotate(360deg);
 }
 
-@keyframes spin{
-  0%{
-    -webkit-transform: rotate(0deg);
-    opacity: 1;
-  }
-  100%{
-    -webkit-transform: rotate(360deg);
-    opacity: 1;
-  }
-}
 footer{
   height: 200px;
   display: grid;
