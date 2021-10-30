@@ -472,12 +472,12 @@ from{
   justify-content: center;
   transition: all 1s ease;
   margin: auto;
+  overflow: hidden;
   position: absolute;
 }
 .explications:hover .blanc {
   transform: rotate(360deg);
 }
-
 footer{
   height: 200px;
   display: grid;
@@ -527,18 +527,9 @@ footer .logotexte{
 	   margin-left: 0;
    }
 }
-@media screen and (max-width: 768px) and (min-width: 414px)
+@media screen and (max-width: 1280px) and (min-width: 414px)
 {
    .englobe{
-	   margin-left: 0;
-   }
-}
-@media (max-width: 1280px) and (min-width: 1024px)
-{
-  .restaurants figure{
-    margin-left: 0;
-  }
-  .englobe{
 	   margin-left: 0;
    }
 }
