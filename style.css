@@ -473,7 +473,6 @@ from{
   transition: all 1s ease;
   margin: auto;
   overflow: hidden;
-  position: absolute;
 }
 .explications:hover .blanc {
   transform: rotate(360deg);
