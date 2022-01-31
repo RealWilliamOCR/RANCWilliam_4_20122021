@@ -785,12 +785,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: dodgerblue;
+    background: #F3976C;
     color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: dodgerblue!important;
+    background: #F3976C!important;
     color: black!important;
 }
 
