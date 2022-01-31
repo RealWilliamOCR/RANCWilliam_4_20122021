@@ -23,8 +23,6 @@ a:hover {
     top: 0;
     bottom: 0;
     width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -787,12 +785,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: dodgerblue;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: dodgerblue!important;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white {
