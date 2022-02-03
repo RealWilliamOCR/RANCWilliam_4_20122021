@@ -229,7 +229,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: white);
+    color: white;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -688,6 +688,7 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    font-size: 1.3em;
 }
 
 .h1 {
